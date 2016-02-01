@@ -4,9 +4,11 @@ webpackJsonp([0],[
 
 	'use strict';
 
-	var hello = __webpack_require__(1);
+	var hello = __webpack_require__(1),
+	    document = window.document;
 
 	document.write('<h1>' + hello.hi('RomaJS') + '</h1>');
+
 
 /***/ }
 ]);

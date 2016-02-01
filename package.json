@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Webpack examples for presentation.",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +23,9 @@
     "url": "https://github.com/JellyBellyDev/webpack-examples/issues"
   },
   "homepage": "https://github.com/JellyBellyDev/webpack-examples#readme",
+  "dependencies": {
+    "moment": "^2.11.1"
+  },
   "devDependencies": {
     "css-loader": "^0.23.1",
     "style-loader": "^0.13.0",

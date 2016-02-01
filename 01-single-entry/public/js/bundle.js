@@ -46,7 +46,8 @@
 
 	'use strict';
 
-	var hello = __webpack_require__(1);
+	var hello = __webpack_require__(1),
+	    document = window.document;
 	__webpack_require__(2);
 
 	document.write('<h1>' + hello.hi('RomaJS') + '</h1>');
