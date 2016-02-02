@@ -22,12 +22,5 @@ module.exports = {
     // Define plugins
     plugins: [
         new CommonsChunkPlugin('common', '[name].js')
-    ],
-
-    // Define the module loaders
-    module: {
-        loaders: [
-            {test: /\.css$/, loader: 'style!css'}
-        ]
-    }
+    ]
 };
