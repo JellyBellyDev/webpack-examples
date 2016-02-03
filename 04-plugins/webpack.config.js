@@ -16,7 +16,7 @@ module.exports = {
     },
 
     plugins: [
-        new webpack.BannerPlugin('/*! This code is compiled by webpack: <%= pkg.name %> */\n', {raw: true}),
+        new webpack.BannerPlugin('/*! This code is compiled by webpack */\n', {raw: true}),
         new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}}), //https://github.com/mishoo/UglifyJS2#usage
         new webpack.optimize.OccurrenceOrderPlugin()
     ],
