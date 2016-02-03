@@ -1,0 +1,15 @@
+//https://github.com/eslint/eslint/blob/master/conf/eslint.json
+{
+  "extends": "eslint:recommended",
+  "env": {
+    "node": true,
+    "browser": true,
+    "commonjs": true
+  },
+  "rules": {
+    "eqeqeq": 2,
+    "indent": [1, 4],
+    "no-console": 2,
+    "quotes": [1, "single"]
+  }
+}
