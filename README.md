@@ -1,6 +1,9 @@
-# webpack-examples
+# webpack-examples for presentation
 
-**enter in example folder**
+## [Webpack: your final module bundler](http://jellybellydev.github.io/webpack-presentation/)
+
+
+**For launch an example enter in to folder**
 
 ```
   cd 01-single-entry
