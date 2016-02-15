@@ -1,11 +1,13 @@
 'use strict';
 
+var document = window.document;
+
 (function init() {
 
-    var btn = document.getElementsByI('show-template-text');
+    var btn = document.getElementById('show-template-text');
 
     function getTemplate(templateName, callback) {
-        require.ensure([], function (require) {
+        require([], function (require) {
             callback(require('../templates/' + templateName)());
         });
     }
@@ -19,4 +21,5 @@
             console.log(b);
         });
     });
+
 })();
