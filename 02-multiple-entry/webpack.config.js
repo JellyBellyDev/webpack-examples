@@ -9,13 +9,13 @@ module.exports = {
 
     // Define the entry point
     entry: {
-        'bundle1': path.resolve(__dirname, 'js', 'app1.js'),
-        'bundle2': path.resolve(__dirname, 'js', 'app2.js')
+        'bundle1': path.join(__dirname, 'js', 'app1.js'),
+        'bundle2': path.join(__dirname, 'js', 'app2.js')
     },
 
     // Output configuration
     output: {
-        path: path.resolve(__dirname, 'public', 'js'),
+        path: path.join(__dirname, 'public', 'js'),
         filename: '[name].js'
     },
 

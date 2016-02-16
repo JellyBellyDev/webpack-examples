@@ -6,11 +6,11 @@ var path = require('path');
 module.exports = {
 
     // Define the entry point
-    entry: path.resolve(__dirname, 'js', 'app.js'),
+    entry: path.join(__dirname, 'js', 'app.js'),
 
     // Output configuration
     output: {
-        path: path.resolve(__dirname, 'public', 'js'),
+        path: path.join(__dirname, 'public', 'js'),
         filename: 'bundle.js'
     },
 
