@@ -24,3 +24,7 @@
 **see output in the public folder**
 
 enjoy
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JellyBellyDev/webpack-examples/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
